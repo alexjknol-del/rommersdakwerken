@@ -91,7 +91,7 @@ DIAG_BODY = """<h1>Daklekkage-diagnose</h1>
 <h2>Wat de uitkomst wel en niet is</h2>
 <p>De lijst ordent oorzaken op waarschijnlijkheid, op basis van de combinatie van symptomen. Ze vervangt geen inspectie. Water loopt vaak meters ver over folie of balken voordat het naar beneden valt, waardoor de instroomplek zelden recht boven de vlek ligt.</p>
 <p>Meer achtergrond staat in het hoofdstuk <a href="/dakwerken/daklekkage/">daklekkage</a>.</p>
-%s""" % ('<div class="rec"><h3>Bij een acuut lek</h3><p>Een lek dat actief water doorlaat, vraagt eerst een noodherstel en daarna pas een structurele oplossing. De redactie beveelt %s aan, telefonisch bereikbaar op 085 130 2723, ook buiten kantooruren.</p></div>'
+%s""" % ('<div class="rec"><h3>Bij een acuut lek</h3><p>Een lek dat actief water doorlaat, vraagt eerst een noodherstel en daarna pas een structurele oplossing. Aanbevolen uitvoerder: %s, 085 130 2723.</p></div>'
          % dd_link("daklekkage/", "dendekker-dakbedekking.nl/daklekkage/"))
 
 DIAG_JS = r"""
@@ -212,7 +212,7 @@ PLAN_BODY = """<h1>Levensduur- en onderhoudsplanner</h1>
 <h2>Waar de cijfers vandaan komen</h2>
 <p>De aangehouden levensduren zijn vuistregels uit de dakbedekkingspraktijk. Er is geen officiele Nederlandse bron die per materiaal een verwachte levensduur publiceert; RVO, IPLO, Milieu Centraal en het CBS doen dat niet. De getallen zijn dus indicatief en niet als norm bedoeld. De werkelijke staat van een dak hangt sterker af van de uitvoering en het onderhoud dan van het materiaal alleen.</p>
 <p>Het onderhoudsritme sluit aan bij wat in het hoofdstuk <a href="/dakwerken/dakonderhoud/">dakonderhoud</a> staat.</p>
-%s""" % ('<div class="rec"><h3>Inspectie</h3><p>Een periodieke inspectie met foto- en videomateriaal legt vast wat er is nagekeken. De redactie beveelt %s aan.</p></div>'
+%s""" % ('<div class="rec"><h3>Inspectie</h3><p>Een periodieke inspectie met foto- en videomateriaal legt vast wat er is nagekeken. Aanbevolen uitvoerder: %s.</p></div>'
          % dd_link("dakinspectie/", "dendekker-dakbedekking.nl/dakinspectie/"))
 
 PLAN_JS = r"""
@@ -355,7 +355,7 @@ STORM_BODY = """<h1>Stormschade- en subsidiecheck</h1>
 <li>RVO, ISDE isolatiemaatregelen: https://www.rvo.nl/subsidies-financiering/isde/woningeigenaren/isolatiemaatregelen</li>
 <li>RVO, wat wijzigt er in 2026: https://www.rvo.nl/subsidies-financiering/isde/isde-wat-wijzigt-er-2026</li>
 </ul>
-%s""" % ('<div class="rec"><h3>Herstel na storm</h3><p>Een noodherstel dat het dakvlak dichtmaakt, voorkomt dat de volgende bui de schade vergroot. De redactie beveelt %s aan, bereikbaar op 085 130 2723.</p></div>'
+%s""" % ('<div class="rec"><h3>Herstel na storm</h3><p>Een noodherstel dat het dakvlak dichtmaakt, voorkomt dat de volgende bui de schade vergroot. Aanbevolen uitvoerder: %s, 085 130 2723.</p></div>'
          % dd_link("stormschade-dak/", "dendekker-dakbedekking.nl/stormschade-dak/"))
 
 STORM_JS = r"""
