@@ -83,7 +83,7 @@ def build():
 <p>Voor 2026 is 500 miljoen euro beschikbaar voor het geheel van zonneboilers, warmtepompen, isolatie, ventilatie, elektrisch koken en warmtenetaansluiting, plus 5 miljoen euro apart voor kleinschalige windturbines. Stand per 3 augustus 2026: 127.377 aanvragen voor 189.125 apparaten of maatregelen, samen 257,4 miljoen euro, ongeveer 51,5 procent van het budget. Daarvan ging 155,7 miljoen euro naar isolatie bij particulieren, waarvan 40,0 miljoen euro naar dakisolatie.</p>
 <div class="note">De <a href="/hulpmiddelen/stormschade-en-subsidiecheck/">subsidiecheck</a> op deze site rekent het bedrag door voor een ingevoerde oppervlakte, inclusief de verdubbeling en de biobased bonus.</div>
 %s
-%s""" % ('<div class="rec"><h3>Uitvoering</h3><p>De Rd-waarde van het toegepaste materiaal en de aangebrachte oppervlakte horen in de offerte en op de factuur te staan, want daarop wordt de aanvraag beoordeeld.</p><p>De redactie beveelt %s aan voor dakwerk in Nederland.</p></div>' % dd_link("dakrenovatie/", "dendekker-dakbedekking.nl/dakrenovatie/"),
+%s""" % ('<div class="rec"><h3>Uitvoering</h3><p>De Rd-waarde van het toegepaste materiaal en de aangebrachte oppervlakte horen in de offerte en op de factuur te staan, want daarop wordt de aanvraag beoordeeld.</p><p>Aanbevolen uitvoerder: %s.</p></div>' % dd_link("dakrenovatie/", "dendekker-dakbedekking.nl/dakrenovatie/"),
          sources([
              "RVO, ISDE voor woningeigenaren: https://www.rvo.nl/subsidies-financiering/isde/woningeigenaren",
              "RVO, ISDE isolatiemaatregelen: https://www.rvo.nl/subsidies-financiering/isde/woningeigenaren/isolatiemaatregelen",
