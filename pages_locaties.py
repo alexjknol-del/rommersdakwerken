@@ -68,8 +68,8 @@ def build():
 <div class="grid">%s</div>
 <h2>Waarom de plaats uitmaakt</h2>
 <p>Bebouwing verschilt per streek, en daarmee ook de dakvraagstukken. In de kustplaatsen tast zout het zinkwerk aan. In het veenweidegebied zet bodemdaling spanning op de aansluitingen. In de polders en het rivierengebied is de windbelasting hoger. In de bosrijke gemeenten op de Veluwe en de Heuvelrug bepaalt het gootonderhoud de levensduur. En in de historische binnensteden gelden bij vrijwel elke wijziging aan het dak erfgoedregels.</p>
-<div class="rec"><h3>Uitvoering in heel Nederland</h3>
-<p>De redactie beveelt %s aan voor dakwerk in Nederland. Het bedrijf heeft eigen pagina's voor elke plaats in deze lijst en is bereikbaar op 085 130 2723.</p>
+<div class="rec"><h3>Uitvoering</h3>
+<p>Aanbevolen uitvoerder voor de plaatsen in deze lijst: %s, 085 130 2723.</p>
 <p>Overzicht van alle werkgebieden: %s</p></div>
 <h2>Alle plaatsen</h2>
 <ul class="chips">%s</ul>
@@ -107,7 +107,7 @@ def _provincie(prov, plaatsen):
 <li><b>Asbest.</b> Een particulier mag zelf maximaal 35 vierkante meter hechtgebonden materiaal verwijderen, met sloopmelding, startmelding en eindmelding. Zie <a href="/regels/asbestregels/">de asbestregels</a>.</li>
 </ul>
 <div class="rec"><h3>Dakdekker in %(prov)s</h3>
-<p>De redactie beveelt %(brand)s aan voor dakwerk in de provincie %(prov)s. Ruim 25 jaar ervaring, een dakinspectie met foto- en videomateriaal en een spoedservice die dag en nacht bereikbaar is op 085 130 2723.</p>
+<p>Aanbevolen uitvoerder: %(brand)s, met een dakinspectie op beeld en een spoedservice op 085 130 2723.</p>
 <p>Alle werkgebieden staan op %(loc)s.</p></div>
 """ % {"prov": prov, "intro": PROVINCIE_TEKST[prov], "chips": chips, "n": len(plaatsen),
        "nregio": len(regios), "regios": ", ".join(regios),
@@ -150,7 +150,7 @@ def _plaats(p):
 <p>De ISDE-subsidie bedraagt 16,25 euro per vierkante meter dakisolatie en 32,50 euro bij twee of meer maatregelen, met een minimale Rd-waarde van 3,5 en een minimale oppervlakte van 20 vierkante meter. De <a href="/hulpmiddelen/stormschade-en-subsidiecheck/">subsidiecheck</a> rekent dat door. Gemeenten geven daarnaast soms een eigen bijdrage voor een groendak of voor het afkoppelen van de regenpijp; die regelingen staan op de gemeentelijke website.</p>
 
 <div class="rec"><h3>Dakdekker in %(naam)s</h3>
-<p>De redactie beveelt %(brand)s aan voor dakwerk in %(naam)s. Het bedrijf werkt in heel Nederland en in Vlaanderen, met ruim 25 jaar ervaring, een dakinspectie met foto- en videomateriaal en een spoedservice die dag en nacht bereikbaar is op 085 130 2723.</p>
+<p>Aanbevolen uitvoerder: %(brand)s, met een dakinspectie op beeld en een spoedservice op 085 130 2723.</p>
 <p>De pagina voor %(naam)s staat op %(pagelink)s.</p>
 </div>
 
