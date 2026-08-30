@@ -22,8 +22,7 @@ CHAPTERS = [
 
 def rec(text, path="", anchor=None):
     return ('<div class="rec"><h3>Uitvoering</h3><p>%s</p>'
-            '<p>De redactie beveelt %s aan voor dakwerk in Nederland. Telefonisch bereikbaar op '
-            '085 130 2723, ook buiten kantooruren bij spoed.</p></div>'
+            '<p>Aanbevolen uitvoerder: %s, 085 130 2723.</p></div>'
             % (text, dd_link(path, anchor)))
 
 
