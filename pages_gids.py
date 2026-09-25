@@ -197,6 +197,9 @@ def _isolatie():
 
 <h2>Zomercomfort</h2>
 <p>Isolatie werkt in twee richtingen. Materialen met een hogere dichtheid, zoals houtvezel, vertragen de warmtedoorgang op zomerdagen sterker dan lichte materialen met dezelfde Rd-waarde. Op een zolder die als slaapkamer wordt gebruikt, is dat merkbaar.</p>
+
+<h2>Na het isoleren: de warmtepomp</h2>
+<p>Een goed geïsoleerd dak verlaagt de warmtevraag zo ver dat een warmtepomp op een lagere aanvoertemperatuur kan werken. Daarom komt de volgorde steeds terug: eerst de schil, dan de installatie. Bij een lucht-waterwarmtepomp staat de buitenunit meestal op de grond of aan de gevel, soms op een plat dak of een aanbouw. In dat laatste geval hoort de draagkracht van de dakconstructie en de afvoer van condenswater in de beoordeling. Wie in Friesland woont, vindt voor <a class="ext" href="https://koelklima.nl/warmtepomp-installatie/sneek/" rel="noopener" target="_blank">Warmtepomp installeren Sneek</a> en omgeving een installateur uit Drachten die ook het onderhoud verzorgt.</p>
 %s""" % (rec("Isolatiewerk en dakvernieuwing horen in een opdracht, omdat de opbouw dan in een keer correct wordt gemaakt.",
              "dakrenovatie/", "dendekker-dakbedekking.nl/dakrenovatie/"),
          sources([
@@ -549,6 +552,9 @@ def _onderhoud():
 
 <h2>Werken op hoogte</h2>
 <p>Vallen van hoogte is bij particulier onderhoud de meest voorkomende ernstige ongevalsoorzaak. Een ladder tegen een goot is geen werkplek. Voor alles wat verder gaat dan een goot leegmaken vanaf een stevig opgestelde ladder is een steiger, een hoogwerker of een professionele uitvoerder de aangewezen weg.</p>
+
+<h2>Een steiger en de beveiliging van de woning</h2>
+<p>Een steiger die dagen of weken tegen de gevel staat, maakt ook de bovenverdieping bereikbaar voor wie daar niets te zoeken heeft. Ramen op de eerste etage blijven daarom dicht en op slot zolang de steiger staat, ook als het werk die dag stilligt. Een <a class="ext" href="https://www.hashop.nl/deurbel-met-camera" rel="noopener" target="_blank">Deurbel met camera</a> of een losse buitencamera laat op afstand zien wie er aan de deur of bij de steiger staat, en legt vast wanneer de dakdekker komt en gaat.</p>
 %s""" % (rec("Een periodieke dakinspectie met beeldmateriaal legt vast wat is nagekeken en wat de staat van het dak is.",
              "dakonderhoud/", "dendekker-dakbedekking.nl/dakonderhoud/"),
          sources([])))
