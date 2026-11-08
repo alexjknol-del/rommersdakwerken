@@ -7,7 +7,7 @@ from pages_locaties import _pslug
 
 
 def build():
-    _home(); _over(); _faq(); _begrippen(); _contact(); _privacy(); _cookies(); _404()
+    _home(); _over(); _faq(); _begrippen(); _contact(); _privacy(); _cookies(); _partners(); _404()
 
 
 def _home():
@@ -339,3 +339,17 @@ def _404():
 <a class="tile" href="/nieuws/"><b>Nieuws</b><span>Actuele berichten met bronvermelding</span></a>
 </div>
 </div>""", noindex=True, priority="0.1"))
+
+
+def _partners():
+    add(Page("/partners/", "Partners",
+             "Partners van rommersdakwerken.nl: websites van dakdekkers en vakbedrijven die aansluiten op de onderwerpen van deze dakgids.",
+             """<div class="wrap">
+<h1>Partners</h1>
+<p class="lead">Websites van dakdekkers en vakbedrijven die aansluiten op de onderwerpen van deze gids.</p>
+
+<h2>Dakdekkers</h2>
+<ul>
+<li><a class="ext" href="https://kooijdaktechniek.nl/dakdekker-poeldijk/" rel="noopener" target="_blank">dakdekker Poeldijk</a></li>
+</ul>
+</div>""", priority="0.3"))
